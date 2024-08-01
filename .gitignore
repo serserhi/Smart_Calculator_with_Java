@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/Smart Calculator with Java/task/build/
+/Smart Calculator with Java/task/out/
+/Smart Calculator with Java/task/out/production/classes/
+/Topics/Replacing characters/Remove HTML tags/out/
+/Topics/Replacing characters/Remove HTML tags/out/production/classes/
