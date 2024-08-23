@@ -78,8 +78,6 @@ public class Main {
 
     }
 
-
-
     public static void manageCommand(String linea) {
         switch(linea) {
             case "/help":
@@ -122,30 +120,6 @@ public class Main {
         }
 
     }
-
-    /*public static void manageExpression(String lineaCorrregida, Map<String, Integer> variables) {
-        String[] numeros = lineaCorrregida.split(" ");
-        int opr = 1;
-        int total = 0;
-        for (String numero : numeros) {
-            switch (numero) {
-                case "+" :
-                    opr = 1;
-                    break;
-                case "-" :
-                    opr = -1;
-                    break;
-                default:
-                    if (variables.containsKey(numero)) {
-                        total += opr * variables.get(numero);
-                    } else {
-                        total += opr * Integer.parseInt(numero);
-                    }
-                    opr = 0;
-            }
-        }
-        System.out.println(total);
-    }*/
 
     private static boolean isOperator(char c) {
         return c == '+' || c == '-' || c == '*' || c == '/';
